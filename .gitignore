@@ -1,0 +1,34 @@
+# data / cache / generated
+**/__pycache__/
+*.pyc
+*.pyo
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.tmp
+*.cache
+*.pickle
+*.pkl
+*.tar
+*.gz
+*.zip
+*.7z
+
+# common dataset formats
+*.jsonl
+*.parquet
+
+# OS junk
+.DS_Store
+._*
+
+# benchmark caches (tune as needed)
+benchmarks/**/retriever_cache/
+benchmarks/**/bm25*/
