@@ -32,3 +32,6 @@
 # benchmark caches (tune as needed)
 benchmarks/**/retriever_cache/
 benchmarks/**/bm25*/
+# IFBench jsonl files (track these)
+!benchmarks/IFBench/data/IFBench_train.jsonl
+!benchmarks/IFBench/data/IFBench_test.jsonl
